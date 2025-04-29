@@ -61,9 +61,8 @@ btn.forEach((el) => {
       emptyContent.classList.remove("show");
       fullContent.classList.add("show");
       cartQuantity.textContent = productQuantity;
-      cartTotal.textContent = `$${productQuantity * 125}`;
+      cartTotal.textContent = `$${productQuantity * 150}`;
 
-      // delete icon functionality
       document
         .querySelector(".delete-icon")
         .addEventListener("click", function (e) {
